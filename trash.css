@@ -94,7 +94,7 @@ ul li:hover a {
 .text_column {
 	width: 29%;
 	text-align: justify;
-	font-weight: bold;
+	font-weight: lighter;
 	line-height: 25px;
 	float: left;
 	padding-left: 20px;
@@ -108,7 +108,7 @@ ul li:hover a {
 	display: inline-block;
 	background-color: #FFFFFF;
 	margin-top: 0px;
-	color: #0000;
+	color: #DDD607;
 }
 
 

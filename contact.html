@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="finalcss.css">
+        <title>Contact Form</title>
+    </head>
+    <body>
+        <form action="contact_endpoint_post.php" method="post" class="form">
+            <fieldset>
+                <legend>218 Innovations contact form</legend>
+                <label for="method" class="hidden">method</label><input type="hidden" name="method" value="POST">
+                <div class="form-group"><label for="name">Name</label> <input type="text" name="name" value="" id="name" placeholder="Your name"></div>
+                <div class="form-group"><label for="email">Email</label> <input type="email" name="email" value="" id="email" placeholder="Your Email Address"></div>
+                <div class="form-group"><label for="phone">Phone</label> <input type="tel" name="phone" value="" id="phone" placeholder="Your Phone Number"></div>
+				<div class="form-group"><label for= "website">Website</label><input type="text" name="website" value="" id="website" placeholder="Your Website"></div>
+                <div class="form-group"><label for="comment" class="label-textarea">Comment</label> <textarea id="comment" name="comment" rows="8" cols="40"></textarea></div>
+				<div class="form-group"><label for="submit" class="hidden"></label><input type="submit" name="submit" value="Submit" id="submit" class="input-submit"></div>
+			</fieldset>
+        </form>
+    </body>
+</html>
