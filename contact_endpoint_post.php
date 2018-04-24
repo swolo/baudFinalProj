@@ -31,5 +31,7 @@
                 </tbody>
             </table>
         </div>
+        <br>
+        <a href="index.html">Back to homepage</a>
     </body>
 </html>
